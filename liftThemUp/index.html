@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>liftThemUp Firm</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href=""> liftThemUp Firm</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="story.html">Our Story</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing"> Become a Member</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">FAQ'S</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Meet new world era.. </h1>
+          <a href="">
+            <button type="button" class="btn btn-outline-light btn btn-dark btn-lg download-button"><i class="icon fas fa-check-circle "></i> Sign in</button>
+          </a>
+            <a href="">
+          <button type="button" class="btn btn-dark btn-lg download-button"  ><i class="icon fas fa-heart "></i>Sign Up</button>
+        </a>
+        <p class="para">Do't just sign in and sign up ----just//liftThemUp</p>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="data:image/jpeg;base64,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" >
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">want to lift life</h3>
+          <p>trust on us.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">become a member</h3>
+          <p>We will give you uses of each amount and real meet with students/child</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Be a golden member</h3>
+          <p>Be a life changer for a needy person</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">"Breaking the cycle of poverty through education"</h2>
+          <img class="testimonial-image" src="data:image/jpeg;base64,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" alt="dog-profile">
+          <em>Omprakash, India</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I can't thank them enough for the impact they've had on my life and the countless others they have helped."</h2>
+          <img class="testimonial-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQcr80_MW-nooRRytGyVMpB5vRjGB5u-Z7Q&usqp=CAU" alt="lady-profile">
+          <em>Hritik, lucknow</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Ones's Needs</h2>
+    <p>Simplest way to change lifes</p>
+    <div>
+      <button  ><a href="images/donateus.jpeg">Donate US</a></button>
+      <p class="para">we will provide you a thanks and member card ,just mension your email id while donating us.. thanks Donar//</p>
+    </div>
+
+    
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Your's Life Today will create tommorow's better life,,Just liftThemUp</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Collected funds</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> @Hritik paswan</button>
+      
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <p>You can request all data , we generally we give details on email in 2 to 3 days...</p>
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© liftThemUp Firm</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
