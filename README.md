@@ -1,2 +1,0 @@
-# liftThemUp
-fund raising site
